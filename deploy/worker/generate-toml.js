@@ -23,6 +23,7 @@ const name = env.WORKER_NAME || 'cloudflare-imgbed';
 let toml = `name = "${name}"
 main = "index.js"
 compatibility_date = "2024-08-21"
+workers_dev = false
 
 [assets]
 directory = "../../frontend-dist"
